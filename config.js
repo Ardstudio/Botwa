@@ -20,11 +20,11 @@ protoType();
 global.moment = moment
 /*============= WAKTU =============*/
 global.owner = [
-	//	['6281234288573'],
-	['6282331033919'],
-	['212706611366'],
-	['6282256080304'],
-	['6282188376948', 'Riin', false]
+	//	['0'],
+	['0'],
+	['0'],
+	['0'],
+	['0', 'Riin', false]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -35,7 +35,7 @@ global.author = '@x7||skizo'
 global.wm = '©xzn.wtf'
 global.no_wallet = ''
 global.nomorown = '0'
-global.xznkey = 'YOURKEY' // chat atmin buat dapetin apikeynya
+global.xznkey = 'arfaid' // chat atmin buat dapetin apikeynya
 global.profil = fs.readFileSync("./src/profil.jpg")
 global.anunya = fs.readFileSync("./src/anunya.jpg")
 global.log = function log() {
@@ -47,7 +47,7 @@ global.APIs = { // API Prefix
 	xzn: 'https://xzn.wtf/'
 }
 global.APIKeys = { // APIKey Here
-	// 'https://website': 'apikey'
+	// 'https://website': 'arfaid'
 	'https://xzn.wtf/': xznkey
 }
 global.multiplier = 69
